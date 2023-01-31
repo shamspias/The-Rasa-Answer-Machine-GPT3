@@ -44,3 +44,5 @@ policies:
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
+
+fallback_action_name: "action_gpt3_fallback"
