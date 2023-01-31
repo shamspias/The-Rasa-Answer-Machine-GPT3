@@ -1,3 +1,11 @@
+# RASA
+
+.rasa
+/.rasa
+models
+# Ignore the logs
+rasa_*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
