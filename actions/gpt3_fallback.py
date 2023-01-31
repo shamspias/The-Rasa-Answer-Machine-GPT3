@@ -14,7 +14,7 @@ class ActionGPT3Fallback(Action):
     def run(self, dispatcher, tracker, domain):
         request = " ".join(tracker.latest_message['text'].split()[1:])
         response = openai.Completion.create(
-            engine="text-davinci-002",
+            engine="text-davinci-003",
             prompt=f"{request}",
             max_tokens=1024,
             n=1,
