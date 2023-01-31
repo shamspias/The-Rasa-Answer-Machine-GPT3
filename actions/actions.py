@@ -5,6 +5,9 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
+from gpt3_fallback import ActionGPT3Fallback
+
+
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List
