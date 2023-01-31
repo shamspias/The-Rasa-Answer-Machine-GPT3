@@ -3,6 +3,7 @@
 .rasa
 /.rasa
 models
+
 # Ignore the logs
 rasa_*.log
 
